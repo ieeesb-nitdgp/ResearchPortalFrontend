@@ -1,4 +1,7 @@
-
+*{
+  padding: 0px;
+  margin: 0px;
+}
 .circle-clip{
   position: absolute;
   background-color: rgb(91, 117, 202);
@@ -58,4 +61,6 @@
   height: 89vh;
   clip-path: circle(2.6% at 40% 80%);
 }
+
+
 
