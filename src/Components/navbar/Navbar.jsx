@@ -111,6 +111,7 @@ export default function Navbar() {
   const classes = useStyle({ ishome });
 
   const history = useHistory();
+  // this function will work in mobile view navigation.
   function pushTo(path) {
     history.push(path);
     toggle(false);
